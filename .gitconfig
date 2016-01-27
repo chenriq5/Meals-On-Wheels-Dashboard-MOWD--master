@@ -1,0 +1,6 @@
+[user]
+	name = 
+	email = 
+[core]
+	autocrlf = true
+	excludesfile = C:\\Users\\Gioster\\Documents\\gitignore_global.txt

@@ -1,0 +1,160 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+body,html {
+	background-color:  	#ba57ff; 
+    width : 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #000;
+}
+
+a {
+	text-decoration: none;
+	color: #00aed1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+}
+
+h2 {
+    text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: #000;
+}
+
+hr {
+    border-color: black;
+    background-color: black;
+
+}
+
+label {
+    color:#000;
+}
+
+option{
+    color:#000;
+}
+.leftHalf {
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
+
+.rightHalf{
+    float:right;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    background: #7d1fa9;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width:100%;
+    margin:0px auto;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.error-message{
+    color:#FF0000;
+}
+
+.text-black{
+    color:#000;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.map-block{
+    width: 85%; 
+    height: 100%; 
+    position: absolute;
+}
+
+
+#map-Container{
+    height:100%;
+}
+.directions-block{
+    background-color: #FFF;
+}
+
+.btn-purple { 
+  color: #FFFFFF; 
+  background-color: #720FA9; 
+  border-color: #9303B0; 
+} 
+ 
+.btn-purple:hover, 
+.btn-purple:focus, 
+.btn-purple:active, 
+.btn-purple.active, 
+.open .dropdown-toggle.btn-purple { 
+  color: #FFFFFF; 
+  background-color: #4A066E; 
+  border-color: #9303B0; 
+} 
+ 
+.btn-purple:active, 
+.btn-purple.active, 
+.open .dropdown-toggle.btn-purple { 
+  background-image: none; 
+} 
+ 
+.btn-purple.disabled, 
+.btn-purple[disabled], 
+fieldset[disabled] .btn-purple, 
+.btn-purple.disabled:hover, 
+.btn-purple[disabled]:hover, 
+fieldset[disabled] .btn-purple:hover, 
+.btn-purple.disabled:focus, 
+.btn-purple[disabled]:focus, 
+fieldset[disabled] .btn-purple:focus, 
+.btn-purple.disabled:active, 
+.btn-purple[disabled]:active, 
+fieldset[disabled] .btn-purple:active, 
+.btn-purple.disabled.active, 
+.btn-purple[disabled].active, 
+fieldset[disabled] .btn-purple.active { 
+  background-color: #720FA9; 
+  border-color: #9303B0; 
+} 
+ 
+.btn-purple .badge { 
+  color: #720FA9; 
+  background-color: #FFFFFF; 
+}

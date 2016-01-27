@@ -1,0 +1,113 @@
+/* style.css
+ * This file provides css styles.
+ */
+
+body,html {
+	background-color: #d5e0f7; width : 100%;
+	height: 100%;
+	margin: 0 auto;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #ffffff;
+}
+
+a {
+	text-decoration: none;
+	color: #00aed1;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.newappIcon {
+	padding-top: 10%;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	max-width:200px;
+}
+
+h1 {
+	font-weight: bold;
+	font-size: 2em;
+	color: #fff;
+}
+
+h2 {
+    text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+	color: #000;
+}
+
+hr {
+    border-color: black;
+    background-color: black;
+
+}
+
+label {
+    color:#000;
+}
+
+option{
+    color:#000;
+}
+.leftHalf {
+	float: left;
+	background-color: #26343f;
+	width: 45%;
+	height: 100%;
+}
+
+.rightHalf{
+    float:right;
+}
+
+.header {
+    color: #fff;
+    text-align: center;
+    background: #4983f7;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    width:100%;
+    margin:0px auto;
+}
+
+.row-centered {
+    text-align:center;
+}
+.col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+.error-message{
+    color:#FF0000;
+}
+
+.text-black{
+    color:#000;
+}
+
+.text-underline{
+    text-decoration: underline;
+}
+
+.map-block{
+    width: 80%; 
+    height: 100%; 
+    position: absolute;
+}
+
+
+#map-Container{
+    height:100%;
+}
+.directions-block{
+    background-color: #FFF;
+}
